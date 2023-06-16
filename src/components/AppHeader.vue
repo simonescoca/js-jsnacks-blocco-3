@@ -6,14 +6,14 @@
         },
         data() {
             return {
-
+                navLinks: ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"]
             }
         }
     }
 </script>
 
 <template>
-    <NavLink />
+    <NavLink :link="nonsaprei"/>
 </template>
 
 <style lang="scss" scoped>

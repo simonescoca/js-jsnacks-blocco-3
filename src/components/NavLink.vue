@@ -1,7 +1,11 @@
 <template lang="">
-    <div>
-        
-    </div>
+    <nav>
+        <ul>
+            <li>
+                {{link}}
+            </li>
+        </ul>
+    </nav>
 </template>
 
 <script>
